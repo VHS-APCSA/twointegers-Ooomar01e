@@ -56,7 +56,7 @@ public class TwoIntegers
 	}
 	public boolean isEven()
 	{
-		if(first + second % 2 == 0)
+		if((first + second) % 2 == 0)
 		{
 			return true;
 		}

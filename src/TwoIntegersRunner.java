@@ -11,7 +11,7 @@ public class TwoIntegersRunner
 	TwoIntegers twoIntegers = new TwoIntegers(value1, value2);
 	
 	String arithmetic = twoIntegers.arithmetic();
-	System.out.print(arithmetic);
+	System.out.print(arithmetic); 
 	
 	int larger = twoIntegers.larger();
 	System.out.print(larger + " is larger.");
