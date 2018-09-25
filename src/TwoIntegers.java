@@ -37,21 +37,21 @@ public class TwoIntegers
 		int prod = first * second;
 		double quo = (double) first / second;
 		
-		return "The sum equals " + sum + "." + "The diffrence equals " + dif + "." + "The product is " + prod + "." + "The quotient is " + quo + "." ;
+		return  first + "+" + second + "=" + sum + "," + first + "-" + second + "=" + dif + "," + first + "*" + second + "=" + prod + "," + first + "/" + second + "=" + quo + "," ;
 	}
-	public String larger()
+	public int larger()
 	{
 		if(first > second)
 		{
-			return "The larger number is" + first  + ".";
+			return first;
 		}	
 		else if (first < second)
 		{
-			return "The larger number is " + second + ".";
+			return second;
 		} 
 		else
 		{ 
-			return first + "is equall to " + second;
+			return first;
 		}
 	}
 	public boolean isEven()
@@ -65,7 +65,7 @@ public class TwoIntegers
 			return false;
 		}
 	}
-	public boolean Multiple()
+	public boolean multiple()
 	{
 			if(first + second % 2 == 0)
 			{

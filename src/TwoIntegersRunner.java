@@ -13,13 +13,13 @@ public class TwoIntegersRunner
 	String arithmetic = twoIntegers.arithmetic();
 	System.out.print(arithmetic);
 	
-	String larger = twoIntegers.larger();
-	System.out.print(larger);
+	int larger = twoIntegers.larger();
+	System.out.print(larger + " is larger.");
 	
 	boolean isEven = twoIntegers.isEven();
 	System.out.print("The sum is even: " + isEven + ".");
 	
-	boolean Multiple = twoIntegers.Multiple();
-	System.out.print("The integer is a multiple of the other number: " + Multiple + ".");
+	boolean multiple = twoIntegers.multiple();
+	System.out.print("The integer is a multiple of the other number: " + multiple + ".");
 	}
 }
